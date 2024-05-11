@@ -5,6 +5,7 @@
   <div class="div1">
     {#each data as item}
     <div class="div2">
+        <input style="width: 10rem;" disabled type="text" value={new Date().getSeconds()}>
         <input style="width: 50rem;" disabled type="text" value={item.login}>
         <input disabled type="text" value={item.avatar_url}>
         <br>
